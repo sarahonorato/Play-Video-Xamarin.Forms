@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileBDG.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <!-- Definindo Cores -->
+            <Color x:Key="colorFundoApp">#3b5998</Color>
+            <Color x:Key="colorPainelPrincipal">#36454f</Color>
+            <Color x:Key="colorPainelTitulo">#98AFC7</Color>
+            <Color x:Key="textColor">#0D386A</Color>
+            <!-- Label -->
+            <Style x:Key="LabelTitulo" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource textColor}" />
+                <Setter Property="FontSize" Value="24" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="Label" TargetType="Label">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="20" />
+            </Style>
+            <Style x:Key="LabelNormal" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource textColor}" />
+                <Setter Property="FontSize" Value="20" />
+            </Style>
+            <Style x:Key="LabelSubTitulo" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource textColor}" />
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+
+            <!-- Textbox -->
+            <Style x:Key="TextBox" TargetType="Entry">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="BackgroundColor" Value="White" />
+            </Style>
+            <!-- TextArea -->
+            <Style x:Key="TextArea" TargetType="Editor">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="BackgroundColor" Value="White" />
+            </Style>
+            <!-- Painel -->
+            <Style x:Key="PainelTitulo" TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="{DynamicResource colorPainelTitulo}" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="Padding" Value="3" />
+                <Setter Property="VerticalOptions" Value="Start" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+            </Style>
+            <Style x:Key="PainelPrincipal" TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="{DynamicResource colorPainelPrincipal}" />
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="Spacing" Value="0" />
+            </Style>
+            <!-- Botão -->
+            <Style x:Key="BotaoPadrao" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#2a4d69" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="WidthRequest" Value="180" />
+                <Setter Property="HeightRequest" Value="50" />
+            </Style>
+            <Style x:Key="BotaoCriarConta" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#4cb6cb" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="WidthRequest" Value="180" />
+                <Setter Property="HeightRequest" Value="50" />
+            </Style>
+            <Style x:Key="BotaoRecuperaSenha" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="TextColor" Value="#666666" />
+                <Setter Property="WidthRequest" Value="180" />
+                <Setter Property="HeightRequest" Value="50" />
+            </Style>
+            <!-- DropDownList -->
+            <Style x:Key="DropDownList" TargetType="Picker">
+                <Setter Property="BackgroundColor" Value="White" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

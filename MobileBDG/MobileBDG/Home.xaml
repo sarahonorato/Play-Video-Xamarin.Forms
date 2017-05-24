@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileBDG.Home">
+    <StackLayout Style="{DynamicResource PainelPrincipal}" Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="FillAndExpand">
+        <Button TextColor="White" BackgroundColor="#c9c9ff" HeightRequest="50" VerticalOptions="Center" Text="Play" WidthRequest="100" Clicked="Button_Clicked"></Button>
+    </StackLayout>
+</ContentPage>
