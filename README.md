@@ -21,5 +21,8 @@ Install the two packages available in Nuget:
 
 # Result
 <p>
-
+<img src="https://raw.githubusercontent.com/sarahonorato/Play-Video-Xamarin.Forms/master/MobileBDG/Screenshots/splash.png" alt="en" height="300" />
+<img src="https://raw.githubusercontent.com/sarahonorato/Play-Video-Xamarin.Forms/master/MobileBDG/Screenshots/start.png" alt="es" height="300" />
+<img src="https://raw.githubusercontent.com/sarahonorato/Play-Video-Xamarin.Forms/master/MobileBDG/Screenshots/pause.png" alt="fr" height="300" />
+<img src="https://raw.githubusercontent.com/sarahonorato/Play-Video-Xamarin.Forms/master/MobileBDG/Screenshots/fim.png" alt="pt" height="300" />
 </p>
